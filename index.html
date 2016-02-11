@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>天码营 ToDo</title>
+  <meta name="description" content="TODO JavaScript Implementation, by Tianmaying (http://www.tianmaying.com)">
+  <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+  <section id="todoapp">
+    <header id="header">
+      <h1>天码营 TODO</h1>
+      <input id="new-todo" placeholder="在这里输入任务描述..." autofocus="">
+    </header>
+    <section id="main">
+      <input id="toggle-all" type="checkbox">
+      <label for="toggle-all">完成全部</label>
+      <ul id="todo-list"></ul>
+    </section>
+    <footer id="footer">
+      <span id="todo-count">还剩 <strong>0</strong> 个任务</span>
+      <button id="clear-completed">清除已完成任务</button>
+    </footer>
+  </section>
+  <footer id="info">
+    <p>点击任务可以编辑</p>
+    <p>Created By <a href="http://www.tianmaying.com/">天码营</a></p>
+  </footer>
+
+  <script src="./lib/jquery.js"></script>
+  <script src="./index.js"></script>
+
+</body>
+
+</html>
